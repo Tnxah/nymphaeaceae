@@ -1,0 +1,253 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.3f1 (32358a8527b4) revision 3290506'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 22000.376; Version 2009; 64bit' Language: 'ru' Physical Memory: 32622 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/Program Files/Unity Projects/nymphaeaceae/nymphaeaceae
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+52172
+Successfully changed project path to: D:/Program Files/Unity Projects/nymphaeaceae/nymphaeaceae
+D:/Program Files/Unity Projects/nymphaeaceae/nymphaeaceae
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 80.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.3f1 (32358a8527b4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity Projects/nymphaeaceae/nymphaeaceae/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   NVIDIA
+    VRAM:     8088 MB
+    Driver:   30.0.14.9676
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003227 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 81.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.504 seconds
+Domain Reload Profiling:
+	ReloadAssembly (505ms)
+		BeginReloadAssembly (54ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (395ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (77ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (254ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (82ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (121ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003875 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Program Files\Unity Projects\nymphaeaceae\nymphaeaceae\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Program Files\Unity Projects\nymphaeaceae\nymphaeaceae\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 83.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.254 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1255ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1056ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (236ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (627ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (84ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (382ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5103 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (347.6 KB). Loaded Objects now: 5564.
+Memory consumption went from 205.5 MB to 205.2 MB.
+Total: 7.352600 ms (FindLiveObjects: 0.768200 ms CreateObjectMapping: 0.746700 ms MarkObjects: 5.555900 ms  DeleteObjects: 0.279900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 41354.789992 seconds.
+  path: Assets/HomeStuff/Models/Bathtub.fbx
+  artifactKey: Guid(47f8c297fa1cc4048a965530702b353d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HomeStuff/Models/Bathtub.fbx using Guid(47f8c297fa1cc4048a965530702b353d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0379dda8f24949a4311f50ec9ad95ee9') in 0.491847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HomeStuff/Models/Lamp.fbx
+  artifactKey: Guid(be1b3100d2863af4bb5022d0c5293618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HomeStuff/Models/Lamp.fbx using Guid(be1b3100d2863af4bb5022d0c5293618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa6ed2b7ee0f1829ffd70ea0cab4e6d') in 0.017791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HomeStuff/Models/Book.5.fbx
+  artifactKey: Guid(97abc9643ce768c4298cb1264363ad94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HomeStuff/Models/Book.5.fbx using Guid(97abc9643ce768c4298cb1264363ad94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470f3aefc39f5fb8aba3c2f5c00d03ce') in 0.022868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HomeStuff/Models/Table.fbx
+  artifactKey: Guid(cc464fd9cb747c0458bbd9f6e895c691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HomeStuff/Models/Table.fbx using Guid(cc464fd9cb747c0458bbd9f6e895c691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b48dae5a088389f13e10a5b2366fad') in 0.018942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HomeStuff/Models/Refrigerator.fbx
+  artifactKey: Guid(d18c080a08b7a5e49b6b690330057a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HomeStuff/Models/Refrigerator.fbx using Guid(d18c080a08b7a5e49b6b690330057a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e98efa77d28630e43bfeb0b589c97c') in 0.023296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HomeStuff/Models/Bookshelf.fbx
+  artifactKey: Guid(a2bc5fda40d1ee24ea8d96aa11802285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HomeStuff/Models/Bookshelf.fbx using Guid(a2bc5fda40d1ee24ea8d96aa11802285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c1c01a2a627620a96f11231f938817') in 0.017692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HomeStuff/Models/Chair.fbx
+  artifactKey: Guid(f42838308461a634682be0b1eb1a5a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HomeStuff/Models/Chair.fbx using Guid(f42838308461a634682be0b1eb1a5a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8d862e08af1352695c8b4aae5b993a') in 0.021498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HomeStuff/Models/BigDrawer.fbx
+  artifactKey: Guid(6946cad694c751a48b91dec74ae41339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HomeStuff/Models/BigDrawer.fbx using Guid(6946cad694c751a48b91dec74ae41339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4ca7d69642baa77e4a5d783736da16') in 0.018901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/HomeStuff/Models/Sofa.1.fbx
+  artifactKey: Guid(35d558844c6d4bd4099115e71679ca77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HomeStuff/Models/Sofa.1.fbx using Guid(35d558844c6d4bd4099115e71679ca77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb431a42f9a62639845455208da0e31') in 0.022134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/HomeStuff/Models/Sink.2.fbx
+  artifactKey: Guid(634189559968b644a99dac5af20b2718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HomeStuff/Models/Sink.2.fbx using Guid(634189559968b644a99dac5af20b2718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc16f780b7bbca39dc0948076e5c2111') in 0.020799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/HomeStuff/Models/Sofa.fbx
+  artifactKey: Guid(1da05fbed83714140b3f47c9812d1e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HomeStuff/Models/Sofa.fbx using Guid(1da05fbed83714140b3f47c9812d1e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086620e4c14e98345033f5887db1f5bc') in 0.022764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/HomeStuff/Models/Drawer.fbx
+  artifactKey: Guid(b36dbcc8ef8059c4a9c8f753d6b0350b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HomeStuff/Models/Drawer.fbx using Guid(b36dbcc8ef8059c4a9c8f753d6b0350b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd652394c7ca148a8a840f5d3e7a6e1f') in 0.020974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HomeStuff/Models/Book.2.fbx
+  artifactKey: Guid(d5f6f6c63bb59f343b64fb522d832b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HomeStuff/Models/Book.2.fbx using Guid(d5f6f6c63bb59f343b64fb522d832b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ddf1db182383e0848d46c7c44e0c53b') in 0.026683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HomeStuff/Models/TallLamp.fbx
+  artifactKey: Guid(16de22d71aac07c4e8827211e6a16176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HomeStuff/Models/TallLamp.fbx using Guid(16de22d71aac07c4e8827211e6a16176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b5a352a994827219f1b9efbc94fd20') in 0.018810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HomeStuff/Models/Book.1.fbx
+  artifactKey: Guid(656f375b779461048b0cdde1b80ef0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HomeStuff/Models/Book.1.fbx using Guid(656f375b779461048b0cdde1b80ef0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b146e036f39e3d19a292039b4d711828') in 0.022808 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
